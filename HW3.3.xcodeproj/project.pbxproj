@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		FA54ACBC261723B000FA2909 /* HW3_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACBB261723B000FA2909 /* HW3_3App.swift */; };
-		FA54ACBE261723B000FA2909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACBD261723B000FA2909 /* ContentView.swift */; };
+		FA54ACBE261723B000FA2909 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACBD261723B000FA2909 /* LoginView.swift */; };
 		FA54ACC0261723B700FA2909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA54ACBF261723B700FA2909 /* Assets.xcassets */; };
 		FA54ACC3261723B700FA2909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA54ACC2261723B700FA2909 /* Preview Assets.xcassets */; };
+		FA54ACCD26172A9D00FA2909 /* WorkAndLogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACCC26172A9D00FA2909 /* WorkAndLogoutView.swift */; };
+		FA54ACD026172B3400FA2909 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACCF26172B3400FA2909 /* UserManager.swift */; };
+		FA54ACD326172BEB00FA2909 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACD226172BEB00FA2909 /* TimeCounter.swift */; };
+		FA54ACD62617304C00FA2909 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACD52617304C00FA2909 /* StartButtonView.swift */; };
+		FA54ACD92617311200FA2909 /* LogoutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACD82617311200FA2909 /* LogoutButtonView.swift */; };
+		FA54ACDC261732D400FA2909 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54ACDB261732D400FA2909 /* StarterView.swift */; };
+		FA54ACDF26174E0600FA2909 /* .ignorefile in Resources */ = {isa = PBXBuildFile; fileRef = FA54ACDE26174E0600FA2909 /* .ignorefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA54ACB8261723B000FA2909 /* HW3.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA54ACBB261723B000FA2909 /* HW3_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_3App.swift; sourceTree = "<group>"; };
-		FA54ACBD261723B000FA2909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA54ACBD261723B000FA2909 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FA54ACBF261723B700FA2909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA54ACC2261723B700FA2909 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA54ACC4261723B700FA2909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA54ACCC26172A9D00FA2909 /* WorkAndLogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkAndLogoutView.swift; sourceTree = "<group>"; };
+		FA54ACCF26172B3400FA2909 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		FA54ACD226172BEB00FA2909 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		FA54ACD52617304C00FA2909 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		FA54ACD82617311200FA2909 /* LogoutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButtonView.swift; sourceTree = "<group>"; };
+		FA54ACDB261732D400FA2909 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		FA54ACDE26174E0600FA2909 /* .ignorefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = .ignorefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 		FA54ACAF261723AF00FA2909 = {
 			isa = PBXGroup;
 			children = (
+				FA54ACDE26174E0600FA2909 /* .ignorefile */,
 				FA54ACBA261723B000FA2909 /* HW3.3 */,
 				FA54ACB9261723B000FA2909 /* Products */,
 			);
@@ -53,7 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				FA54ACBB261723B000FA2909 /* HW3_3App.swift */,
-				FA54ACBD261723B000FA2909 /* ContentView.swift */,
+				FA54ACDB261732D400FA2909 /* StarterView.swift */,
+				FA54ACBD261723B000FA2909 /* LoginView.swift */,
+				FA54ACCC26172A9D00FA2909 /* WorkAndLogoutView.swift */,
+				FA54ACD82617311200FA2909 /* LogoutButtonView.swift */,
+				FA54ACD52617304C00FA2909 /* StartButtonView.swift */,
+				FA54ACD226172BEB00FA2909 /* TimeCounter.swift */,
+				FA54ACCF26172B3400FA2909 /* UserManager.swift */,
 				FA54ACBF261723B700FA2909 /* Assets.xcassets */,
 				FA54ACC4261723B700FA2909 /* Info.plist */,
 				FA54ACC1261723B700FA2909 /* Preview Content */,
@@ -126,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA54ACDF26174E0600FA2909 /* .ignorefile in Resources */,
 				FA54ACC3261723B700FA2909 /* Preview Assets.xcassets in Resources */,
 				FA54ACC0261723B700FA2909 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA54ACBE261723B000FA2909 /* ContentView.swift in Sources */,
+				FA54ACCD26172A9D00FA2909 /* WorkAndLogoutView.swift in Sources */,
+				FA54ACBE261723B000FA2909 /* LoginView.swift in Sources */,
+				FA54ACD92617311200FA2909 /* LogoutButtonView.swift in Sources */,
+				FA54ACD026172B3400FA2909 /* UserManager.swift in Sources */,
+				FA54ACDC261732D400FA2909 /* StarterView.swift in Sources */,
+				FA54ACD62617304C00FA2909 /* StartButtonView.swift in Sources */,
+				FA54ACD326172BEB00FA2909 /* TimeCounter.swift in Sources */,
 				FA54ACBC261723B000FA2909 /* HW3_3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

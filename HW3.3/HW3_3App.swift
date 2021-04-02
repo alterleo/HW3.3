@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct HW3_3App: App {
+    @StateObject private var user = UserManager()
+    
+    @AppStorage("name") var nameAppStorage: String = ""
+    @AppStorage("isRegister") var isRegisterAppStorage: Bool = false
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
+                .onAppear() {
+                    //Starting initialization from UserDefaults
+                    user.isRegister = isRegisterAppStorage
+                    user.name = nameAppStorage
+                }
+                .environmentObject(user)
         }
     }
 }
